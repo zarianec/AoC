@@ -87,7 +87,6 @@ foreach ($scores as $key => $val) {
         in_array($minX, $val['x']) || in_array($maxX, $val['x']) ||
         in_array($minY, $val['y']) || in_array($maxY, $val['y'])
     ) {
-        unset($scores[$key]);
         continue;
     }
 
